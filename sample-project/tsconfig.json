@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      // Language service plugin.  Affects IDE / editor experience.  Generates diagnostic messages.  Does not affect code emit.
+      {"name": "ts-plugin-jest-hoist/out/plugin"},
+      // {"name": "../../../out/plugin"},
+      // Transformer.  Affects code emit.  Does not generate diagnostic messages.
+      {"transform": "ts-plugin-jest-hoist/out/transformer", "type": "program"}
+    ],
+  },
+  "include": [
+    "foo.ts"
+  ]
+}

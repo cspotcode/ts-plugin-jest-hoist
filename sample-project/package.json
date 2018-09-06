@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.4",
+    "ttypescript": "^1.5.5",
+    "typescript": "^3.0.3",
+    "ts-plugin-jest-hoist": "*"
+  }
+}
