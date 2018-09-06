@@ -12,7 +12,7 @@ Performs `jest.mock()` hoisting.  Transforms compiled code.
 
 ## Sample usage
 
-Look at "sample-project/tsconfig.json"
+Look at ["sample-project/tsconfig.json"](sample-project/tsconfig.json)
 
 The "plugins" array is a feature of the language service.  You can list custom plugins.  They will be loaded by the langauge service and provide useful language service features: extra diagnostics, refactoring, suggestions, code completion items, etc.  https://github.com/Microsoft/TypeScript/wiki/Writing-a-Language-Service-Plugin
 
